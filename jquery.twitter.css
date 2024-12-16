@@ -1,0 +1,67 @@
+div#twitter {
+	width: 219px;
+	color:#fff;
+	background: url(images/mask3.png) repeat;
+	text-align:center; 	
+	margin-top:-28px;
+	margin-bottom:8px;
+	margin-left:3px;
+	
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	-moz-box-shadow: 2px 2px 5px #666;
+	-webkit-box-shadow: 2px 2px 5px #666;
+	box-shadow: 2px 2px 5px #666;
+
+}
+
+p#preloader {
+	margin: 0;
+	padding: 1em 1em 1em 1em;
+	background: transparent;
+	/* generate your own loader gif: http://www.ajaxload.info */
+}
+
+ul#twitter_update_list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul#twitter_update_list li {
+	width:98%;
+	font-family: 'Patrick Hand', cursive;
+	text-shadow: -1px -1px 0px #333;
+	font-size:15px;
+	margin: 0;
+	padding: 2px;
+	border-bottom: 1px solid #01539a;
+}
+
+ul#twitter_update_list li a {
+	/* timestamp link */
+	color: #fff;
+}
+
+ul#twitter_update_list li span {
+	display: block;
+}
+
+ul#twitter_update_list li span a {
+	/* links in tweet */
+	color:#fff;
+
+}
+
+ul#twitter_update_list li.firstTweet {
+}
+
+ul#twitter_update_list li.lastTweet {
+	border-bottom: none;
+}
+
+a#profileLink {
+	display: block;
+	padding: 0.3em 1em;
+	color: #fff;
+}

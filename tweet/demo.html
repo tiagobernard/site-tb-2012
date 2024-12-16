@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<title>jquery.twitter.js Demo</title>
+
+
+		<link rel="stylesheet" href="jquery.twitter.css" type="text/css" media="all">
+        <link href='http://fonts.googleapis.com/css?family=Patrick+Hand&v2' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Philosopher&v1' rel='stylesheet' type='text/css'>
+
+		<script type="text/javascript" src="jquery-1.2.6.pack.js"></script>
+		<script type="text/javascript" src="jquery.twitter.js"></script>
+
+		<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+			$(document).ready(function() {
+				$("#twitter").getTwitter({
+					userName: "TiagoBernard",
+					numTweets: 3,
+					loaderText: "carregando...",
+					slideIn: true,
+					showHeading: true,
+					headingText: "@TiagoBernard",
+					showProfileLink: false
+				});
+			});
+		//--><!]]>
+		</script>
+	</head>
+
+	<body>
+		<div id="twitter"></div>
+	</body>
+</html>
